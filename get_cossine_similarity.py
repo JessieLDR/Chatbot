@@ -4,8 +4,13 @@
 
 import numpy as np
 
+# Personal python functions
+import sys
+sys.path.insert(1, 'C:\\Users\\jamilah\\Documents\\Subfunctions_python')
 
-def get_cossine_similarity(inp_wt, relv_sen_unique):
+from findall import *
+
+def get_cossine_similarity(inp_wt, relv_sen_unique, sen):
 
     # Make a word count vector 
     vals_input, wc_input = np.unique(inp_wt, return_counts=True)
