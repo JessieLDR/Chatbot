@@ -1,3 +1,5 @@
+# Created by Jamilah Foucher, 15/02/2022
+
 def separate_token(token, partition_str):
     
     # Separate word using single quotes

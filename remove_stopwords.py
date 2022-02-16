@@ -5,6 +5,10 @@ import numpy as np
 
 # Checks to see if the entire word token matches the list_to_remove
 
+# Created by Jamilah Foucher, 31/05/2021
+
+
+
 def remove_stopwords(wordtokens):
     
     # Put words that are 4 characters long or more, like a name, location, etc that you do not want to process

@@ -1,3 +1,5 @@
+# Created by Jamilah Foucher, 15/02/2022
+
 import numpy as np
 
 import nltk
@@ -158,11 +160,11 @@ def text_url_2_senANDwordtokens(inputurl, name_txtfile):
     # -----------------------------------------
 
     # Save text to file
-    # filename = '%s.txt' % (name_txtfile)
-    # with open(filename, 'w') as f:
-        # for line in word_tok:
-            # f.write(line)
-            # f.write('\n')
+    filename = '%s.txt' % (name_txtfile)
+    with open(filename, 'w') as f:
+        for line in word_tok:
+            f.write(line)
+            f.write('\n')
     # -----------------------------------------
 
     return sen, word_tok

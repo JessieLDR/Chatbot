@@ -1,3 +1,5 @@
+# Created by Jamilah Foucher, 31/05/2021
+
 import numpy as np
 
 from sklearn.feature_extraction.text import CountVectorizer

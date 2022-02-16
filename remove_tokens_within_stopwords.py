@@ -1,3 +1,5 @@
+# Created by Jamilah Foucher, 15/02/2022
+
 # Checks to see if a part of the word token matches the list_to_remove
 
 def remove_tokens_within_stopwords(all_val, list_to_remove):

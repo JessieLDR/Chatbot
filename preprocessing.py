@@ -6,7 +6,7 @@ import sys
 sys.path.insert(1, 'C:\\Users\\jamilah\\Documents\\Subfunctions_python')
 
 from string_text_processing.remove_stopwords import *
-
+# Created by Jamilah Foucher, 31/05/2021
 
 def preprocessing(text):
     # -------------------------------------
